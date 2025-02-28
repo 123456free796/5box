@@ -68,7 +68,8 @@ export class ThemePrompt implements Prompt {
 		),
 		optgroup({ label: "Misc" },
 			option({ value: "azur lane" }, "Azur Lane"),
-			option({ value: "custom" }, "Custom")
+			option({ value: "custom" }, "Custom"), 
+			option({ value: "Fives" }, "Fives")
 		),
 	);
 	private readonly _cancelButton: HTMLButtonElement = button({ class: "cancelButton" });
